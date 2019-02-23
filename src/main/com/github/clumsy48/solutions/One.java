@@ -4,7 +4,7 @@ import java.util.stream.IntStream;
 
 public class One {
 
-    public int calculateMultiplesOf3Or5() {
+    public int calculateSumMultiplesOf3Or5() {
         return IntStream.range(1, 1000).filter(this::multipleOfOnly3And5).sum();
     }
 
